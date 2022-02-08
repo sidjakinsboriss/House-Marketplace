@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom'
 import rentCategoryImage from '../assets/jpg/rentCategoryImage.jpg'
 import sellCategoryImage from '../assets/jpg/sellCategoryImage.jpg'
+import Slider from '../components/Slider'
 
 function Explore() {
   return (
     <div className="explore">
       <header>
-        <p className="pageheader">Explore</p>
+        <p className="pageHeader">Explore</p>
       </header>
 
       <main>
-        {/* Slider */}
+        <Slider/>
 
         <p className="exploreCategoryHeading">Categories</p>
 
